@@ -1,0 +1,28 @@
+package com.happenhub.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+/**
+ * Standard API envelope for consistent JSON responses:
+ * { "success": true, "message": "...", "data": { ... } }
+ */
+@Data
+@AllArgsConstructor
+public class ApiResponse<T> {
+    private boolean success;
+    private String message;
+    private T data;
+
+    public static <T> ApiResponse<T> ok(String message, T data) {
+        return new ApiResponse<>(true, message, data);
+    }
+
+    public static <T> ApiResponse<T> ok(String message) {
+        return new ApiResponse<>(true, message, null);
+    }
+
+    public static <T> ApiResponse<T> error(String message) {
+        return new ApiResponse<>(false, message, null);
+    }
+}

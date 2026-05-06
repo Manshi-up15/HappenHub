@@ -1,0 +1,28 @@
+# Java / Maven
+happenhub-backend/target/
+*.class
+*.jar
+*.war
+
+# Node / Frontend
+happenhub-original/happenhub-main/frontend/node_modules/
+happenhub-original/happenhub-main/frontend/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter
+happenhub-flutter/.dart_tool/
+happenhub-flutter/build/
+happenhub-flutter/.flutter-plugins
+happenhub-flutter/.flutter-plugins-dependencies
+
+# Env / Logs
+*.log
+.env
