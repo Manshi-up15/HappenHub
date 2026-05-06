@@ -56,39 +56,6 @@ HappenHub is a full-stack event discovery and management platform that connects 
 
 ---
 
-## 🛠️ Tech Stack
-
-### Backend
-| Technology | Purpose |
-|------------|---------|
-| **Java 17** | Core language |
-| **Spring Boot 3.2** | Application framework |
-| **Spring Security** | Authentication & authorization |
-| **Spring Data JPA** | ORM & database access |
-| **Hibernate** | Object-relational mapping |
-| **MySQL 8.0** | Relational database |
-| **JWT (jjwt 0.11.5)** | Token-based authentication |
-| **Lombok** | Boilerplate code reduction |
-| **Maven** | Build & dependency management |
-
-### Frontend (Web)
-| Technology | Purpose |
-|------------|---------|
-| **React 18** | UI library |
-| **Vite** | Build tool & dev server |
-| **React Router v6** | Client-side routing |
-| **TailwindCSS** | Utility-first styling |
-| **Axios** | HTTP client |
-| **Lucide React** | Icon library |
-
-### Mobile
-| Technology | Purpose |
-|------------|---------|
-| **Flutter** | Cross-platform mobile framework |
-| **Dart** | Programming language |
-
----
-
 ## 📁 Project Structure
 
 ```
